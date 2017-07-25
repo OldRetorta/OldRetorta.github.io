@@ -8,14 +8,24 @@ public class Calculator {
 
         Scanner scan = new Scanner (System.in);
 
-        System.out.println("Enter the first number");
-        double first = scan.nextDouble();
-        System.out.println("Enter the second number");
-        double second = scan.nextDouble();
-        System.out.println("Select the type of operation: ");
-        System.out.println("*; /; +; -; or % only");
-        char operation = scan.next().charAt(0);
-        System.out.println("To complete calculations, enter \"=\"");
+        double first;
+        double second;
+        char operation;
+        char check;
+
+        do {
+            System.out.println("Enter the first number");
+            first = scan.nextDouble();
+            System.out.println("Enter the second number");
+            second = scan.nextDouble();
+            System.out.println("Select the type of operation: ");
+            System.out.println("*; /; +; -; or % only");
+            operation = scan.next().charAt(0);
+            System.out.println("To enter numbers again, enter 'n'");
+            System.out.println("To continue the calculations, enter 'y'");
+            check = scan.next().charAt(0);
+
+        } while (check != 'y');
 
         double result = 0;
 
