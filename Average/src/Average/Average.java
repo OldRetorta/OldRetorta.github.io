@@ -8,9 +8,9 @@ public class Average {
 
         Scanner scan = new Scanner(System.in);
         String finish;
-        int number = 0;
+        double number = 0;
         int count = 0;
-        int temp = 0;
+        double temp = 0;
 
         do {
 
@@ -19,13 +19,13 @@ public class Average {
 
             if(finish.equals("end")){
 
-                int result = temp / count;
+                double result = temp / count;
 
                 System.out.println("Averege = " + result);
 
             } else {
 
-                number = Integer.parseInt(finish);
+                number = Double.parseDouble(finish);
                 temp = temp + number;
 
                 count++;
