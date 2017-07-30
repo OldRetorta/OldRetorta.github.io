@@ -5,6 +5,7 @@ public class Dot {
 
     public static void main(String[] args) {
 
+        // Slack comment
         Scanner scan = new Scanner(System.in);
 
         int sepInd;
