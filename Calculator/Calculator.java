@@ -6,6 +6,7 @@ public class Calculator {
 
     public static void main (String[] args) {
 
+        // Slack comment
         Scanner scan = new Scanner (System.in);
 
         double first;

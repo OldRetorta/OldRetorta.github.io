@@ -17,7 +17,7 @@ public class Dot {
         message[3] = "This point belong to the area of the rectangle";
         message[4] = "This point does not belong to the area of the rectangle";
         message[5] = "Incorrect value, enter again";
-        int [][] dotCoord = new int [3][2];
+        int[][] dotCoord = new int [3][2];
 
 
         for (int i = 0; i<3; i++) {
