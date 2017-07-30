@@ -6,6 +6,7 @@ public class Average {
 
     public static void main (String[] args) {
 
+        // Slack comment
         Scanner scan = new Scanner(System.in);
         String finish;
         double number = 0;
