@@ -7,6 +7,7 @@ public class Sorts {
     public static void main(String[] args) {
 
 
+        //Comment
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the value of search");
         int value = scan.nextInt();
@@ -27,7 +28,6 @@ public class Sorts {
         MassMeth.binarySearch(randomArrey, value);
 
         MassMeth.binarySearchRecursion(randomArrey, value, 0, randomArrey.length - 1);
-
 
 
     }

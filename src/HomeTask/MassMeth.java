@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MassMeth {
 
+    //Comment
     public static void swap(int[] array, int first, int second) {
 
         int temp;
@@ -56,7 +57,7 @@ public class MassMeth {
 
     public static void binarySearchRecursion(int[] array, int value, int left, int right) {
 
-        if(left > right){
+        if (left > right) {
 
             System.out.println("This array does not contain elements with a given value");
             return;
@@ -64,14 +65,14 @@ public class MassMeth {
 
         int middle = (left + right) / 2;
 
-        if(array[middle] == value){
+        if (array[middle] == value) {
 
             System.out.println("Index of an element with a given value is: " + middle);
             return;
-        }else if (array[middle] > value){
+        } else if (array[middle] > value) {
 
             binarySearchRecursion(array, value, left, middle - 1);
-        }else {
+        } else {
 
             binarySearchRecursion(array, value, middle + 1, right);
         }
